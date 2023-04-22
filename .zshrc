@@ -7,8 +7,6 @@
 # ZSH config ideas, resources, tips and tricks: ~/.config/zsh/awesome-zsh.txt
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# User configuration
-
 # Homebrew on arm64 and completions: https://docs.brew.sh/Shell-Completion
 eval "$(/opt/homebrew/bin/brew shellenv)"
 FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"

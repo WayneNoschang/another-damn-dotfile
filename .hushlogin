@@ -1,0 +1,2 @@
+If a .hushlogin file exists in the home directory, all login messages are suppressed." 
+See: man login

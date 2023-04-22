@@ -37,5 +37,9 @@ Temporary Items
 **/.ssh/*_id_*
 **/.ssh/known_hosts
 
+### Development ###
+.env
+node_modules
+.log
 
 

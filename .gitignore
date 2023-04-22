@@ -5,7 +5,7 @@
 .Trash
 .cache
 .lesshst
-*vim*
+.vim*
 *zcomp*
 *.zsh_*
 
@@ -18,6 +18,17 @@
 .vscode
 .config
 .local
+
+## .config dir
+.config/bat
+.config/iterm2
+.config/lvim/**/
+.config/neofetch
+.config/notes
+.config/nvim-macos
+.config/nvm
+.config/starship.toml
+.config/zsh
 
 
 # Home folders
