@@ -16,7 +16,6 @@
 
 ## Review before adding to repository
 .vscode
-.config
 .local
 
 ## .config dir
