@@ -32,6 +32,7 @@ Temporary Items
 *.icloud
 
 ### SSH ###
+**/.ssh*
 **/.ssh/id_*
 **/.ssh/*_id_*
 **/.ssh/known_hosts
