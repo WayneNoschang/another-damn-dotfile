@@ -19,15 +19,16 @@
 .local
 
 ## .config dir
-.config/bat
-.config/iterm2
 .config/lvim/**/
-.config/neofetch
-.config/notes
 .config/nvim-macos
+.config/iterm2
 .config/nvm
-.config/starship.toml
-.config/zsh
+# .config/neofetch
+# .config/bat
+# .config/starship.toml
+# .config/zsh
+.config/zsh/i386/
+.config/zsh/.*
 
 
 # Home folders
