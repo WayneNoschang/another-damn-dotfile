@@ -1,0 +1,33 @@
+# Dot files
+
+## OS files
+.CFUserTextEncoding
+.Trash
+.cache
+.lesshst
+*vim*
+*zcomp*
+*.zsh_*
+
+## Dev files
+.gem
+.npm
+.venv
+
+## Review before adding to repository
+.vscode
+.config
+.local
+
+
+# Home folders
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Projects
+Public
+
