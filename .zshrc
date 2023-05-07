@@ -5,7 +5,7 @@
 # ███████╗    ███████║██║  ██║███████╗███████╗███████╗    ╚██████╗╚██████╔╝██║ ╚████║██║     ██║╚██████╔╝╚██████╔╝██║  ██║██║  ██║   ██║   ██║╚██████╔╝██║ ╚████║
 # ╚══════╝    ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝     ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
 
-# ZSH config ideas, resources, tips and tricks: ~/.config/zsh/zsh-notes.md
+# ZSH config notes and reminders: ~/.config/zsh/zsh-notes.md
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Homebrew on arm64 and completions: https://docs.brew.sh/Shell-Completion
@@ -17,7 +17,6 @@ eval "$(starship init zsh)"
 
 # ZSH config dir
 ZCONFIG="$HOME/.config/zsh"
-export XDG_CONFIG_HOME="$HOME/.config" # config dir for all other apps
 
 # Environment Variables
 [[ -f $ZCONFIG/environment-variables.zsh ]] && source $ZCONFIG/environment-variables.zsh
@@ -46,12 +45,4 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # Lunarvim
 export PATH="$HOME/.config/nvim-macos/bin:$PATH" # Path for neovim 0.8.0 (required for lvim)
 export PATH="$HOME/.local/bin:$PATH" # Path for lunarvim
-# -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Old Commands
-
-# Setting PATH for Python 3.10 (The original version is saved in 1TB.pysave)
-# export PATH="/Library/Frameworks/Python.framework/Versions/3.10/bin:${PATH}"
-
-# New shell session info and reminders
-# cat .reminders.txt

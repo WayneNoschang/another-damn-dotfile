@@ -8,3 +8,4 @@
 # /___||___/|_||_| |___|_|\_| \_/  |___|_|_\ \___/|_|\_|_|  |_|___|_|\_|  |_|      \_/  /_/ \_\|_|_\___| /_/ \_\|___/____|___|___/  
 
 export EDITOR='lvim'
+export XDG_CONFIG_HOME="$HOME/.config" # config dir for all other apps

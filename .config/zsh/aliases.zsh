@@ -20,11 +20,15 @@ alias lfpath='echo $fpath | tr " " "\n"'
 
 # List file and directories using exa: https://github.com/ogham/exa
 alias ls="exa"
-alias la="COLUMNS=100 exa -a --sort=ext --group-directories-first --icons --ignore-glob='.DS_Store' --grid"
-alias ll="exa -Hhb --long --grid --git --no-time"
+LS_IGNORE=".git*|.hushlogin|.DS_Store|.CFUserTextEncoding|.lesshst|.viminfo|.zcomp*|.zsh_*"
+alias lsa="exa -1a --ignore-glob='$LS_IGNORE'"
+alias ll="exa -Hhb --long --git --no-time"
+alias llc="exa --long -h --time=created --sort=created"
 alias lt="exa --tree"
-alias llc="exa --long --grid -h --time=created --sort=created"
 
 # Alias to access homebrew neovim (not accessible because of nvim 8.0 on PATH )
 alias brew-nvim="$(brew --prefix)/bin/nvim"
+
+# Git aliases for long or complex commands
+alias gitree="git ls-tree --full-tree --name-only -r HEAD"
 
